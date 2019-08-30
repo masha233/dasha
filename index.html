@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<script>
+		function f()
+		{
+			if(document.getElementById("menu").style.display!="none") 
+			{
+				document.getElementById("menu").style.display="none"
+			}
+			else(document.getElementById("menu").style.display=="none")
+			{
+				document.getElementById("menu").style.display="block"
+			}	
+		}
+	</script>
+</head>
+<body>
+	<header>
+		<nav>
+			<div id="menuburger" onclick="f()"><img src="p/burger.png" alt=""></div>
+			<div class="logo"><img src="p/logo.png"></div>
+			<menu id="menu">
+				<ul>
+					<li><a href="">Лукбук</a></li>
+					<li><a href="">О нас</a></li>
+					<li><a href="">Отзывы</a></li>
+					<li><a href="">Контакты</a></li>
+				</ul>
+			</menu>
+			<div class="basket"><img src="p/basket.png"></div>
+		</nav>
+	</header>
+	<section>
+	   <div id="text">
+	   	 	<h1>Уникальный бренд</h1>
+	   		<h1>украинский</h1>
+	   		<h1> дизайнерской одежды</h1>
+
+	   	  <p>Летняя коллекция <br>в наличии</p>
+	   	  <button>В магазин</button>
+	   </div>
+		<div class="photo2"><img src="p/888.jpg"></div>
+	</section>
+
+	<section id="lookbook">
+		<div class="lookbook">
+		  <h1>Лукбук</h1>
+	    </div>
+	    <div class="lookbook_tovar">
+	    	<div id="lookbook_tovar1_magazin">
+	    		<div class="close" onclick="clo()"><img src="p/close.png"></div>
+	    		<img src="p/Group 2.png" class="img_photo">
+	    		<img src="p/Group.png" class="img_photo">
+	    		<img src="p/Group.png" class="img_photo">
+	    		<img src="p/Group.png" class="img_photo">
+	    		<div class="name_tovar2">
+	    			<p><b>Название товара</b></p>
+	    			<p>200$</p>
+
+	    		</div>
+	    		<div class="name_color2"></div>
+	    			<div class="name_color2"></div>
+	    			<div class="name_color2 color2"></div>
+	    			<div class="name_color2"></div>
+	    			<div class="tovar">
+	    		<div class="tovar">
+	    			<div class="name_color3"><p>S</p></div>
+	    			<div class="name_color3"><p>M</p></div>
+	    			<div class="name_color3"><p>L</p></div>
+	    		</div>
+                <div id="text2">
+	    			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis necessitatibus quas maxime provident non quaerat voluptate nulla, doloremque reprehenderit! Mollitia aut tempore inventore nam id, hic enim modi reprehenderit adipisci.</p>
+	    		</div>
+	    	
+	    		
+	    	<div class="click">
+	    	<button>В корзину</button>
+	    	<button class="bt">Под заказ</button>
+	    	</div>	
+	    		</div>
+	    	</div>
+	    	<div class="lookbook_tovar1">
+	    		<div class="name_photo" onclick="f()"><img src="p/Group 2.png"></div>
+	    		<div class="name_tovar">
+	    			<p>Название товара</p>
+	    			<p>200$</p>
+	    	</div>
+	    	<div class="name_color"></div>
+	    	<div class="name_color"></div>
+	    	<div class="name_color"></div>
+	    	<div class="name_color"></div>
+	    	<button>Подробнее</button>
+	    </div>
+	    <div class="lookbook_tovar2">
+	    <div class="name_photo"></div>
+           <div class="name_tovar">
+           	  <p>Название товара</p>
+	    	  <p>200$</p>	
+           </div>
+           <div class="name_color"></div>
+           <div class="name_color"></div>
+           <div class="name_color"></div>
+           <div class="name_color"></div>
+           <button>Подробнее</button>
+	    </div>
+	</div>
+	<div class="lookbook_tovar">
+	    	<div class="lookbook_tovar1">
+	    		<div class="name_photo"></div>
+	    		<div class="name_tovar">
+	    			<p>Название товара</p>
+	    			<p>200$</p>
+	    	</div>
+	    	<div class="name_color"></div>
+	    	<div class="name_color"></div>
+	    	<div class="name_color"></div>
+	    	<div class="name_color"></div>
+	    	<button>Подробнее</button>
+	    </div>
+	    <div class="lookbook_tovar2">
+	    <div class="name_photo"></div>
+           <div class="name_tovar">
+           	  <p>Название товара</p>
+	    	  <p>200$</p>	
+           </div>
+           <div class="name_color"></div>
+           <div class="name_color"></div>
+           <div class="name_color"></div>
+           <div class="name_color"></div>
+           <button>Подробнее</button>
+	    </div>
+	    <div class="mare">
+	    <select>
+			<option value="" selected="">Ещё</option>
+			<option value="">Е</option>
+			<option value="">щ</option>
+			<option value="" >ё</option>
+		</select>
+		</div>
+		<div class="about">
+			<p>О нас</p>
+			 <div id="box1"></div>
+			 <div id="box2"></div>
+            <div id="box3">
+			 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br> Obcaecati quisquam est laudantium! Odit similique, adipisci<br> unde doloremque architecto enim dolor sed repellendus dignissimos <br>asperiores voluptates soluta ex cupiditate pariatur <br>accusamus.
+			 Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br> Obcaecati quisquam est laudantium! Odit similique, adipisci<br> unde doloremque architecto enim dolor sed repellendus dignissimos <br>asperiores voluptates soluta ex cupiditate pariatur <br>accusamus.</p>
+			</div>
+		</div>
+		<div class="review">
+			<p>Отзывы</p>
+			<div id="box4">
+				<img src="p/Group 8.png">
+				<b><h3>Марина</h3></b>
+				<h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br> Deleniti eaque ipsa asperiores, suscipit dolor in quis nulla<br> minima facere, iure, amet quasi, quidem porro. Sequi id alias <br>tempore atque, inventore.</h4>
+			</div>
+        <div id="img">
+			<img src="p/y.png">
+		</div>
+		<table>
+			<tr>
+				<td id="tel"><p>Телефон +380(948)385</p></td>
+				<td><input type="text" name="forma1" size="30" placeholder="Имя"></td>
+			</tr>
+			<tr>
+				<td id="tel"><p>Почта-@jfklld.com</p></td>
+				<td><input type="text" name="forma1" size="30" placeholder="Почта"></td>
+			</tr>
+			<tr>
+				<td id="tel"><p>Instagram-jjfggjg</p></td>
+				<td><textarea name="" id="email" cols="30" rows="10" placeholder="Сообщение"></textarea></td>
+			</tr>
+			<tr>
+				<td>faceboock- hfdkfd</td>
+				<td><input type="button" value="Отправить"></td>
+			</tr>
+		</table>
+	</div>
+	</section>
+  </nav>
+</body>
+</html>
